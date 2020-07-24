@@ -90,7 +90,7 @@ def showdata():
         data.set("Please Enter Correct Details")        # Error message for invalid Country names
         
 Label(root, text="Enter all Countries Names\nFor whom you want to get\nCovid-19 data",font="Helvetica 15 bold").pack()
-Label(root, text="Enter Country name:").pack()
+Label(root, text="Enter Country names:").pack()
 data = StringVar()
 data.set("India")
 entry = Entry(root, textvariable=data, width=40).pack()
